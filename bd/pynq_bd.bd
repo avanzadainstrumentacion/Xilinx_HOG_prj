@@ -1,9 +1,9 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x76E5BA2757A841A4",
+      "boundary_crc": "0x76E5BA27A41A638C",
       "device": "xc7z020clg400-1",
-      "gen_directory": "../../../../Pynq_btn_leds.gen/sources_1/bd/pynq_bd",
+      "gen_directory": "c:Pynq_btn_leds.gen/sources_1/bd/pynq_bd",
       "name": "pynq_bd",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "None",
@@ -1926,8 +1926,8 @@
       },
       "axi_gpio_btn": {
         "vlnv": "xilinx.com:ip:axi_gpio:2.0",
-        "xci_name": "pynq_bd_axi_gpio_0_0",
-        "xci_path": "ip\\pynq_bd_axi_gpio_0_0\\pynq_bd_axi_gpio_0_0.xci",
+        "xci_name": "pynq_bd_axi_gpio_btn_0",
+        "xci_path": "ip\\pynq_bd_axi_gpio_btn_0\\pynq_bd_axi_gpio_btn_0.xci",
         "inst_hier_path": "axi_gpio_btn",
         "parameters": {
           "C_ALL_INPUTS": {
@@ -1940,8 +1940,8 @@
       },
       "axi_gpio_0": {
         "vlnv": "xilinx.com:ip:axi_gpio:2.0",
-        "xci_name": "pynq_bd_axi_gpio_0_1",
-        "xci_path": "ip\\pynq_bd_axi_gpio_0_1\\pynq_bd_axi_gpio_0_1.xci",
+        "xci_name": "pynq_bd_axi_gpio_0_0",
+        "xci_path": "ip\\pynq_bd_axi_gpio_0_0\\pynq_bd_axi_gpio_0_0.xci",
         "inst_hier_path": "axi_gpio_0",
         "parameters": {
           "C_ALL_INPUTS": {
@@ -1957,9 +1957,9 @@
       },
       "ps7_0_axi_periph": {
         "vlnv": "xilinx.com:ip:axi_interconnect:2.1",
-        "xci_path": "ip\\pynq_bd_ps7_0_axi_periph_1\\pynq_bd_ps7_0_axi_periph_1.xci",
+        "xci_path": "ip\\pynq_bd_ps7_0_axi_periph_0\\pynq_bd_ps7_0_axi_periph_0.xci",
         "inst_hier_path": "ps7_0_axi_periph",
-        "xci_name": "pynq_bd_ps7_0_axi_periph_1",
+        "xci_name": "pynq_bd_ps7_0_axi_periph_0",
         "parameters": {
           "NUM_MI": {
             "value": "2"
@@ -2354,8 +2354,8 @@
       },
       "rst_ps7_0_100M": {
         "vlnv": "xilinx.com:ip:proc_sys_reset:5.0",
-        "xci_name": "pynq_bd_rst_ps7_0_100M_1",
-        "xci_path": "ip\\pynq_bd_rst_ps7_0_100M_1\\pynq_bd_rst_ps7_0_100M_1.xci",
+        "xci_name": "pynq_bd_rst_ps7_0_100M_0",
+        "xci_path": "ip\\pynq_bd_rst_ps7_0_100M_0\\pynq_bd_rst_ps7_0_100M_0.xci",
         "inst_hier_path": "rst_ps7_0_100M"
       },
       "dvr_leds_0": {
